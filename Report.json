@@ -1,0 +1,445 @@
+{
+    "Motherboard": {
+        "Name": "ASUSTEK VIVOBOOK_ASUSLAPTOP X515EA_X515EA",
+        "Chipset": "Tiger Lake-LP",
+        "Platform": "Laptop"
+    },
+    "BIOS": {
+        "Version": "X515EA.316",
+        "Release Date": "2024-03-14",
+        "System Type": "x64-based",
+        "Firmware Type": "UEFI",
+        "Secure Boot": "Disabled"
+    },
+    "CPU": {
+        "Manufacturer": "Intel",
+        "Processor Name": "11th Gen Intel(R) Core(TM) i3-1115G4",
+        "Codename": "Tiger Lake-UP3",
+        "Core Count": "02",
+        "CPU Count": "01",
+        "SIMD Features": "SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2"
+    },
+    "GPU": {
+        "Intel(R) UHD Graphics": {
+            "Manufacturer": "Intel",
+            "Codename": "Tiger Lake",
+            "Device ID": "8086-9A78",
+            "Device Type": "Integrated GPU",
+            "Subsystem ID": "15CC1043",
+            "PCI Path": "PciRoot(0x0)/Pci(0x2,0x0)",
+            "ACPI Path": "\\_SB.PC00.GFX0",
+            "Resizable BAR": "Disabled"
+        }
+    },
+    "Monitor": {
+        "IVO061F": {
+            "Connector Type": "Internal",
+            "Resolution": "1920x1080",
+            "Connected GPU": "Intel(R) UHD Graphics"
+        }
+    },
+    "Network": {
+        "Intel(R) Wireless-AC 9461": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-A0F0",
+            "Subsystem ID": "02648086",
+            "PCI Path": "PciRoot(0x0)/Pci(0x14,0x3)",
+            "ACPI Path": "\\_SB.PC00.CNVW"
+        }
+    },
+    "Sound": {
+        "Intel\u00ae Smart Sound Technology for Bluetooth\u00ae Audio": {
+            "Bus Type": "INTELAUDIO",
+            "Device ID": "8086-AE30",
+            "Subsystem ID": "1B721043",
+            "Controller Device ID": "8086-A0C8"
+        },
+        "Intel\u00ae Smart Sound Technology for USB Audio": {
+            "Bus Type": "INTELAUDIO",
+            "Device ID": "8086-AE50",
+            "Subsystem ID": "1B721043",
+            "Controller Device ID": "8086-A0C8"
+        },
+        "Realtek(R) Audio": {
+            "Bus Type": "INTELAUDIO",
+            "Device ID": "10EC-0897",
+            "Subsystem ID": "10431B72",
+            "Audio Endpoints": [
+                "Speakers",
+                "Microphone"
+            ],
+            "Controller Device ID": "8086-A0C8"
+        }
+    },
+    "USB Controllers": {
+        "Intel(R) USB 3.10 eXtensible Host Controller - 1.20 (Microsoft)": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-A0ED",
+            "Subsystem ID": "201F1043",
+            "PCI Path": "PciRoot(0x0)/Pci(0x14,0x0)",
+            "ACPI Path": "\\_SB.PC00.XHCI"
+        }
+    },
+    "Input": {
+        "ASUS Precision Touchpad": {
+            "Bus Type": "ACPI",
+            "Device": "ELAN1300",
+            "Device Type": "I2C HID Device"
+        },
+        "Gaming mouse [Philips SPK9304]": {
+            "Bus Type": "USB",
+            "Device ID": "1BCF-08A0"
+        },
+        "PC/AT Enhanced PS/2 Keyboard (101/102-Key)": {
+            "Bus Type": "ACPI",
+            "Device": "ATK3001",
+            "Device Type": "PS/2"
+        }
+    },
+    "Storage Controllers": {
+        "Tiger Lake-LP SATA Controller": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-A0D3",
+            "Subsystem ID": "17D21043",
+            "PCI Path": "PciRoot(0x0)/Pci(0x17,0x0)",
+            "ACPI Path": "\\_SB.PC00.SAT0",
+            "Disk Drives": [
+                "ST1000LM035-1RK172"
+            ]
+        },
+        "SanDisk Ultra 3D / WD Blue SN550 NVMe SSD": {
+            "Bus Type": "PCI",
+            "Device ID": "15B7-5009",
+            "Subsystem ID": "500915B7",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1c,0x4)/Pci(0x0,0x0)",
+            "ACPI Path": "\\_SB.PC00.RP05.PXSX",
+            "Disk Drives": [
+                "WDC PC SN530 SDBPNPZ-256G-1002"
+            ]
+        }
+    },
+    "Bluetooth": {
+        "Intel(R) Wireless Bluetooth(R)": {
+            "Bus Type": "USB",
+            "Device ID": "8087-0AAA"
+        }
+    },
+    "System Devices": {
+        "Motherboard resources": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.PC00.PDRC"
+        },
+        "Motherboard resources_#1": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.PC00.LPCB.LDRC"
+        },
+        "Motherboard resources_#2": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.URSC"
+        },
+        "Intel(R) GNA Scoring Accelerator module": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-9A11",
+            "Subsystem ID": "17D21043",
+            "PCI Path": "PciRoot(0x0)/Pci(0x8,0x0)",
+            "ACPI Path": "\\_SB.PC00.GNA0"
+        },
+        "ASUS System Control Interface v3": {
+            "Bus Type": "ACPI",
+            "Device": "ASUS2018",
+            "ACPI Path": "\\_SB.ASUP"
+        },
+        "ACPI Processor Aggregator": {
+            "Bus Type": "ACPI",
+            "Device": "ACPI000C",
+            "ACPI Path": "\\_SB.PAGD"
+        },
+        "Intel(R) SMBus - A0A3": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-A0A3",
+            "Subsystem ID": "17D21043",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1f,0x4)",
+            "ACPI Path": "\\_SB.PC00.SBUS"
+        },
+        "Volume Manager": {
+            "Bus Type": "ROOT",
+            "Device": "VOLMGR"
+        },
+        "Microsoft Basic Display Driver": {
+            "Bus Type": "ROOT",
+            "Device": "BASICDISPLAY"
+        },
+        "ACPI Thermal Zone": {
+            "Bus Type": "ACPI",
+            "Device": "THERMALZONE",
+            "ACPI Path": "\\_SB.THRM"
+        },
+        "Programmable interrupt controller": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0000",
+            "ACPI Path": "\\_SB.PC00.LPCB.IPIC"
+        },
+        "Intel(R) Serial IO UART Host Controller - A0A8": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-A0A8",
+            "Subsystem ID": "17D21043",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1e,0x0)",
+            "ACPI Path": "\\_SB.PC00.UA00"
+        },
+        "ACPI Lid": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C0D",
+            "ACPI Path": "\\_SB.PC00.LPCB.EC0_.LID_"
+        },
+        "Microsoft Hyper-V Virtualization Infrastructure Driver": {
+            "Bus Type": "ROOT",
+            "Device": "VID"
+        },
+        "High precision event timer": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0103",
+            "ACPI Path": "\\_SB.PC00.LPCB.HPET"
+        },
+        "Composite Bus Enumerator": {
+            "Bus Type": "ROOT",
+            "Device": "COMPOSITEBUS"
+        },
+        "Microsoft Virtual Drive Enumerator": {
+            "Bus Type": "ROOT",
+            "Device": "VDRVROOT"
+        },
+        "Motherboard resources_#3": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.PRRE"
+        },
+        "Microsoft ACPI-Compliant Embedded Controller": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C09",
+            "ACPI Path": "\\_SB.PC00.LPCB.EC0_"
+        },
+        "Intel\u00ae Smart Sound Technology BUS": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-A0C8",
+            "Subsystem ID": "1B721043",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1f,0x3)",
+            "ACPI Path": "\\_SB.PC00.HDAS"
+        },
+        "UMBus Root Bus Enumerator": {
+            "Bus Type": "ROOT",
+            "Device": "UMBUS"
+        },
+        "Charge Arbitration Driver": {
+            "Bus Type": "ROOT",
+            "Device": "CAD"
+        },
+        "Microsoft Windows Management Interface for ACPI": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C14",
+            "ACPI Path": "\\_SB.WFDE"
+        },
+        "System timer": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0100",
+            "ACPI Path": "\\_SB.PC00.LPCB.TIMR"
+        },
+        "Microsoft Windows Management Interface for ACPI_#1": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C14",
+            "ACPI Path": "\\_SB.ATKD"
+        },
+        "Microsoft Windows Management Interface for ACPI_#2": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C14",
+            "ACPI Path": "\\_SB.WFTE"
+        },
+        "PCI Express Root Complex": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0A08",
+            "ACPI Path": "\\_SB.PC00"
+        },
+        "Intel(R) Host Bridge/DRAM Registers - 9A04": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-9A04",
+            "Subsystem ID": "17D21043",
+            "PCI Path": "PciRoot(0x0)/Pci(0x0,0x0)"
+        },
+        "Intel(R) Serial IO I2C Host Controller - A0E9": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-A0E9",
+            "Subsystem ID": "17D21043",
+            "PCI Path": "PciRoot(0x0)/Pci(0x15,0x1)",
+            "ACPI Path": "\\_SB.PC00.I2C1"
+        },
+        "ACPI Power Button": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C0C",
+            "ACPI Path": "\\_SB.PWRB"
+        },
+        "Microsoft ACPI-Compliant System": {
+            "Bus Type": "ACPI_HAL",
+            "Device": "PNP0C08"
+        },
+        "Microsoft Basic Render Driver": {
+            "Bus Type": "ROOT",
+            "Device": "BASICRENDER"
+        },
+        "Motherboard resources_#4": {
+            "Bus Type": "ACPI",
+            "Device": "INT3F0D",
+            "ACPI Path": "\\_SB.PC00.LPCB.CWDT"
+        },
+        "Intel(R) PCI Express Root Port #5 - A0BC": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-A0BC",
+            "Subsystem ID": "17D21043",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1c,0x4)",
+            "ACPI Path": "\\_SB.PC00.RP05"
+        },
+        "Microsoft UEFI-Compliant System": {
+            "Bus Type": "ACPI_HAL",
+            "Device": "UEFI"
+        },
+        "Intel(R) Serial IO GPIO Host Controller - INT34C5": {
+            "Bus Type": "ACPI",
+            "Device": "INT34C5",
+            "ACPI Path": "\\_SB.GPI0"
+        },
+        "Intel\u00ae Smart Sound Technology Detection Verification": {
+            "Bus Type": "INTELAUDIO",
+            "Device": "DIF_0000"
+        },
+        "ACPI Fixed Feature Button": {
+            "Bus Type": "ACPI",
+            "Device": "FIXEDBUTTON"
+        },
+        "Intel(R) PCI Express Root Port #1 - A0B8": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-A0B8",
+            "Subsystem ID": "17D21043",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1c,0x0)",
+            "ACPI Path": "\\_SB.PC00.RP01"
+        },
+        "ACPI Wake Alarm": {
+            "Bus Type": "ACPI",
+            "Device": "ACPI000E",
+            "ACPI Path": "\\_SB.AWAC"
+        },
+        "TRIGGR Kraken X1 Hands-Free AG": {
+            "Bus Type": "BTHENUM"
+        },
+        "Intel(R) Dynamic Tuning Manager": {
+            "Bus Type": "ACPI",
+            "Device": "INTC1040",
+            "ACPI Path": "\\_SB.IETM"
+        },
+        "Intel(R) Power Engine Plug-in": {
+            "Bus Type": "ACPI",
+            "Device": "INT33A1",
+            "ACPI Path": "\\_SB.PEPD"
+        },
+        "PCI standard RAM Controller": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-A0EF",
+            "Subsystem ID": "17D21043",
+            "PCI Path": "PciRoot(0x0)/Pci(0x14,0x2)"
+        },
+        "Motherboard resources_#5": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.IOTR"
+        },
+        "Intel(R) SPI (flash) Controller - A0A4": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-A0A4",
+            "Subsystem ID": "17D21043",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1f,0x5)"
+        },
+        "Intel(R) LPC Controller/eSPI Controller (U Premium) - A082": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-A082",
+            "Subsystem ID": "17D21043",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1f,0x0)",
+            "ACPI Path": "\\_SB.PC00.LPCB"
+        },
+        "Intel(R) Dynamic Tuning Generic Participant": {
+            "Bus Type": "ACPI",
+            "Device": "INTC1043",
+            "ACPI Path": "\\_SB.PC00.LPCB.EC0_.SEN1"
+        },
+        "Intel(R) Dynamic Tuning Generic Participant_#1": {
+            "Bus Type": "ACPI",
+            "Device": "INTC1043",
+            "ACPI Path": "\\_SB.PC00.LPCB.EC0_.SEN2"
+        },
+        "Intel(R) Dynamic Tuning Generic Participant_#2": {
+            "Bus Type": "ACPI",
+            "Device": "INTC1043",
+            "ACPI Path": "\\_SB.PC00.LPCB.EC0_.SEN3"
+        },
+        "Intel(R) Dynamic Tuning Generic Participant_#3": {
+            "Bus Type": "ACPI",
+            "Device": "INTC1043",
+            "ACPI Path": "\\_SB.PC00.LPCB.EC0_.SEN4"
+        },
+        "Intel(R) Platform Monitoring Technology Driver": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-9A0D",
+            "Subsystem ID": "00000000",
+            "PCI Path": "PciRoot(0x0)/Pci(0xa,0x0)"
+        },
+        "NDIS Virtual Network Adapter Enumerator": {
+            "Bus Type": "ROOT",
+            "Device": "NDISVIRTUALBUS"
+        },
+        "Intel(R) Management Engine Interface #1": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-A0E0",
+            "Subsystem ID": "17D21043",
+            "PCI Path": "PciRoot(0x0)/Pci(0x16,0x0)",
+            "ACPI Path": "\\_SB.PC00.HECI"
+        },
+        "Intel(R) Dynamic Tuning Processor Participant": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-9A03",
+            "Subsystem ID": "17D21043",
+            "PCI Path": "PciRoot(0x0)/Pci(0x4,0x0)",
+            "ACPI Path": "\\_SB.PC00.TCPU"
+        },
+        "Intel\u00ae Smart Sound Technology OED": {
+            "Bus Type": "INTELAUDIO",
+            "Device ID": "8086-0222",
+            "Subsystem ID": "1B721043",
+            "ACPI Path": "\\_SB.PC00.HDAS.IDA_"
+        },
+        "Intel(R) Serial IO I2C Host Controller - A0E8": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-A0E8",
+            "Subsystem ID": "17D21043",
+            "PCI Path": "PciRoot(0x0)/Pci(0x15,0x0)",
+            "ACPI Path": "\\_SB.PC00.I2C0"
+        },
+        "Microsoft System Management BIOS Driver": {
+            "Bus Type": "ROOT",
+            "Device": "MSSMBIOS"
+        },
+        "Intel(R) Serial IO SPI Host Controller - A0AA": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-A0AA",
+            "Subsystem ID": "17D21043",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1e,0x2)",
+            "ACPI Path": "\\_SB.PC00.SPI0"
+        },
+        "Plug and Play Software Device Enumerator": {
+            "Bus Type": "ROOT",
+            "Device": "SYSTEM"
+        },
+        "Remote Desktop Device Redirector Bus": {
+            "Bus Type": "ROOT",
+            "Device": "RDPBUS"
+        }
+    }
+}
