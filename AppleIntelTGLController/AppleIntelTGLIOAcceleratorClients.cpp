@@ -23,6 +23,7 @@
 #include "IntelRingBuffer.h"
 #include <IOKit/IOMemoryDescriptor.h>
 #include <IOKit/IOLib.h>
+#include <IOKit/pci/IOPCIDevice.h>
 #include <mach/mach_time.h>
 #include <mach/vm_types.h>
 #include <libkern/c++/OSArray.h>

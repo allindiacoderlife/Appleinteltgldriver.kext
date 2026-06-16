@@ -22,6 +22,7 @@
 #include "IntelGuCSubmission.h"
 #include "IntelIOSurfaceManager.h"
 #include <IOKit/IOLib.h>
+#include <IOKit/pci/IOPCIDevice.h>
 
 
 #define super IOAccelerator
