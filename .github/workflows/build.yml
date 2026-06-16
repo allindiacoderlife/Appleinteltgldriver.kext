@@ -1,0 +1,32 @@
+name: Build Kext
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build AppleIntelTGLController
+    runs-on: macos-13
+    steps:
+      - name: Checkout Source Code
+        uses: actions/checkout@v4
+
+      - name: Setup Xcode
+        run: sudo xcode-select -s /Applications/Xcode_15.2.app
+
+      - name: Verify Xcode Version
+        run: xcodebuild -version
+
+      - name: Build Xcode Project
+        run: |
+          xcodebuild -project AppleIntelTGLController.xcodeproj -scheme AppleIntelTGLController -configuration Release -derivedDataPath build
+          
+      - name: Upload Kext Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: AppleIntelTGLController-Kext
+          path: build/Build/Products/Release/AppleIntelTGLController.kext
