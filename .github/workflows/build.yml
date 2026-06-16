@@ -20,7 +20,7 @@ jobs:
 
       - name: Build Xcode Project
         run: |
-          xcodebuild -project AppleIntelTGLController.xcodeproj -scheme AppleIntelTGLController -configuration Release -derivedDataPath build
+          xcodebuild -project AppleIntelTGLController.xcodeproj -scheme AppleIntelTGLController -configuration Release -derivedDataPath build CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
           
       - name: Upload Kext Artifact
         uses: actions/upload-artifact@v4
